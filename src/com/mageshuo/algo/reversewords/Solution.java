@@ -2,9 +2,13 @@ package com.mageshuo.algo.reversewords;
 
 public class Solution {
         public String reverseWords(String s) {
-            String res = new String();
+            StringBuilder sb = new StringBuilder();
             String[] arr = s.split(" ");
 
-            return res;
+            for(int i = arr.length - 1; i >= 1; i--) {
+                sb.append(arr[i]).append(" ");
+            }
+            sb.append(arr[0]);
+            return sb.toString();
         }
 }
