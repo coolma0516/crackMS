@@ -5,7 +5,6 @@ public class Solution {
             String res = new String();
             String[] arr = s.split(" ");
 
-
             return res;
         }
 }
