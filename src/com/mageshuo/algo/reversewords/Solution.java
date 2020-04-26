@@ -11,4 +11,9 @@ public class Solution {
             Collections.reverse(wordList);
             return String.join(" ", wordList);
         }
+// Use my own API
+//        public String reverseWords2(String s) {
+//            s = s.trim();
+//
+//        }
 }
